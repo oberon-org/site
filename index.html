@@ -21,6 +21,16 @@
 	.item a:hover {
 		color: #1111FF; text-decoration: underline;
 	}
+	div.menu a {
+		color: #7777DD; text-decoration: none; display: inline-block;
+		padding: 6px;
+		margin: 0px;
+		margin-top: 4px;
+		background: #EEEEEE;
+	}
+	div.menu a:hover {
+		color: #1111FF; text-decoration: underline;
+	}
 	a {
 		color: #111199; text-decoration: none;
 	}
@@ -69,8 +79,15 @@
 		} while (i < data.length);
 		return enc;
 	}
-	</script>
 
+	function google () {
+		var query = document.getElementById("q").value;
+		if (query != "") {
+			window.location.href = "https://www.google.com/search?q="+query+"+site%3Aoberon.org";
+		}
+	}
+	</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body style="background: #FFFFFF; margin: 3%; font-family: Arial, Helvetica, sans-serif; color: #330000">
@@ -81,17 +98,30 @@
 
 <h1>Каталог интернет-ресурсов, связанных с языком программирования Оберон</h1>
 
+<div class='menu'><a href="/#history">История</a> <a href="/#education">Обучение</a> <a href="/#tools">Инструменты</a> <a href="/#communities">Сообщества</a> <a href="/#boards">Форумы</a> <a href="/#video">Видео</a> <a href="/#events">Конференции</a> <a href="/#repos">Репозитории</a></div>
+
+<div style='margin-top: 10px'><input type='text' id='q'> <button onClick="google();">Искать в домене oberon.org</button></div>
+
+
+
 <p>Проект объединяет разработчиков, применяющих Оберон, Оберон-2, Активный Оберон, Модула-2, Модула-3, Оберон-07 или Компонентный Паскаль (Блэкбокс Оберон) в своих проектах.</p> 
 
 <p>Для получения домена третьего уровня для вашего проекта, <a href='mailto:iadenisov АТ oberon.org' onmouseover="this.href = 'mailto:Иван Денисов '+base64_decode('PGlhZGVuaXNvdkBvYmVyb24ub3JnPj9zdWJqZWN0PQ==')+'По поводу oberon.org'">напишите письмо</a>.</p>
 
-<div class='menu'><a href="/#history">История</a> <a href="/#education">Обучение</a> <a href="/#tools">Инструменты</a> <a href="/#communities">Сообщества</a> <a href="/#boards">Форумы</a> <a href="/#video">Видео</a> <a href="/#events">Конференции</a> <a href="/#repos">Репозитории</a></div>
+
+
 
 <div style='clear: both;'><h2 id='history'>Исторические материалы</h2></div>
 
 <div class='item'>
 <h3>Сайт Никлауса Вирта</h3>
 <a href=https://inf.ethz.ch/personal/wirth>https://inf.ethz.ch/personal/wirth</a>
+<p></p>
+</div>
+
+<div class='item'>
+<h3>Одна из первых страниц про Оберон на русском</h3>
+<a href=http://www.uni-vologda.ac.ru/oberon/>http://www.uni-vologda.ac.ru/oberon/</a>
 <p></p>
 </div>
 
