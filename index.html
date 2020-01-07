@@ -3,8 +3,12 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<meta name="yandex-verification" content="4ffd52ea41176b8e" />
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Caption&display=swap" rel="stylesheet"> 
 	<title>Оберон, каталог ресурсов</title>
 	<style>
+	body {
+		background: #FFFFFF; margin: 3%; font-family: 'PT Sans Caption', sans-serif; color: #330000
+	}
 	.item {
 		margin-top: 40px; margin-left: 20px;
 	}
@@ -21,15 +25,23 @@
 	.item a:hover {
 		color: #1111FF; text-decoration: underline;
 	}
-	div.menu a {
+	.button, div.menu a {
 		color: #7777DD; text-decoration: none; display: inline-block;
 		padding: 6px;
 		margin: 0px;
 		margin-top: 4px;
 		background: #EEEEEE;
+		border: 1px solid #CCCCCC;
+		border-radius: 4px;
 	}
-	div.menu a:hover {
-		color: #1111FF; text-decoration: underline;
+	.button:hover, div.menu a:hover {
+		color: #1111FF; border: 1px solid #999999;  text-decoration: none; 
+	}
+	input {
+		border: 1px solid #CCCCCC;
+		border-radius: 4px;
+		padding: 8px;
+		font-size: 12pt;
 	}
 	a {
 		color: #111199; text-decoration: none;
@@ -39,6 +51,10 @@
 	}
 	.menu a {
 		display: inline-block; margin-right: 5px;
+	}
+	p {
+		margin-top: 4px;
+		color: #444444;
 	}
 	</style>
 
@@ -86,11 +102,13 @@
 			window.location.href = "https://www.google.com/search?q="+query+"+site%3Aoberon.org";
 		}
 	}
+
 	</script>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
 </head>
 
-<body style="background: #FFFFFF; margin: 3%; font-family: Arial, Helvetica, sans-serif; color: #330000">
+<body>
 
 <div style="max-width: 900px; margin: auto;">
 
@@ -100,9 +118,7 @@
 
 <div class='menu'><a href="/#history">История</a> <a href="/#education">Обучение</a> <a href="/#tools">Инструменты</a> <a href="/#communities">Сообщества</a> <a href="/#boards">Форумы</a> <a href="/#video">Видео</a> <a href="/#events">Конференции</a> <a href="/#repos">Репозитории</a></div>
 
-<div style='margin-top: 10px'><input type='text' id='q'> <button onClick="google();">Искать в домене oberon.org</button></div>
-
-
+<div style='margin-top: 10px; margin-bottom: 15px;'><form action='javascript:void(0)' onSubmit='google()'><input type='text' id='q' onSubmit='google()'> <input type='submit' style='display: none'><a  href='javascript:void(0)' onClick="google();" class='button'>Искать в домене oberon.org</a></form></div>
 
 <p>Проект объединяет разработчиков, применяющих Оберон, Оберон-2, Активный Оберон, Модула-2, Модула-3, Оберон-07 или Компонентный Паскаль (Блэкбокс Оберон) в своих проектах.</p> 
 
@@ -350,9 +366,9 @@
 </div>
 
 <div class='item'>
-<h3>Рокет-чат с тематическими каналами</h3>
-<a href=https://chat.obertone.ru>https://chat.obertone.ru</a>
-<p></p>
+<h3>Чат с тематическими каналами</h3>
+<a href=https://chat.oberon.org>https://chat.oberon.org</a>
+<p>Тематическое общение на программной платформе RocketChat.</p>
 </div>
 
 <div class='item'>
@@ -371,9 +387,9 @@
 </div>
 
 <div class='item'>
-<h3>Jürg Gutknecht's presentation Oberon and its purity (Oberon Day @ CERN, 10-March-2004)</h3>
+<h3>Oberon and its purity</h3>
 <a href='https://cds.cern.ch/record/745708?ln=en'>https://cds.cern.ch/record/745708?ln=en</a>
-<p></p>
+<p>Jürg Gutknecht's presentation at the Oberon Day @ CERN (10-March-2004)</p>
 </div>
 
 <div class='item'>
