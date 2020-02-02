@@ -13,7 +13,7 @@
 		margin-top: 40px; margin-left: 20px;
 	}
 	h1 {
-		font-size: 22pt;
+		font-size: 20pt;
 	}
 	h2 {
 		padding-top: 20px;
@@ -28,25 +28,51 @@
 	.item a:hover {
 		color: #1111FF; text-decoration: underline;
 	}
-	.button, div.menu a {
+	div.menu a {
 		color: #7777DD; text-decoration: none; display: inline-block;
 		padding: 4px;
 		padding-left: 6px;
 		padding-right: 6px;
 		margin: 0px;
+		margin-top: 3px;
 		background: #EEEEEE;
 		border: 1px solid #CCCCCC;
 		border-radius: 4px;
 	}
-	.button:hover, div.menu a:hover {
+	div.menu a:hover {
 		color: #1111FF; border: 1px solid #999999;  text-decoration: none; 
 	}
-	input {
+
+	/* search */
+	.button {
+		color: #7777DD; text-decoration: none; display: inline-block;
+		padding: 5px;
+		padding-left: 10px;
+		padding-right: 10px;
+		margin: 0px;
+		height: 21px;
+		background: #EEEEEE;
 		border: 1px solid #CCCCCC;
 		border-radius: 4px;
+		border-top-left-radius: 0px;
+		border-bottom-left-radius: 0px; 
+	}
+	.button:hover {
+		color: #1111FF; border: 1px solid #999999;  text-decoration: none; 
+	}
+
+	input {
+		border: 1px solid #CCCCCC;
+		border-right: 0px;
+		border-radius: 4px;
+		height: 19px;
 		padding: 6px;
 		font-size: 12pt;
+		border-top-right-radius: 0px;
+		border-bottom-right-radius: 0px;
+		vertical-align: top;
 	}
+
 	a {
 		color: #111199; text-decoration: none;
 	}
@@ -122,7 +148,7 @@
 
 <div class='menu'><a href="/#history">История</a> <a href="/#education">Обучение</a> <a href="/#tools">Инструменты</a> <a href="/#communities">Сообщества</a> <a href="/#boards">Форумы</a> <a href="/#video">Видео</a> <a href="/#events">Конференции</a> <a href="/#repos">Репозитории</a></div>
 
-<div style='margin-top: 10px; margin-bottom: 15px;'>Поиск в домене oberon.org:<form action='javascript:void(0)' onSubmit='google()' style='display: inline-block; margin-left: 10px;'><input type='text' id='q' onSubmit='google()'> <input type='submit' style='display: none'><a  href='javascript:void(0)' onClick="google();" class='button'>Искать</a></form></div>
+<div style='margin-top: 10px; margin-bottom: 15px; color: #444444;'><span style='margin-right: 10px;'>Поиск в домене oberon.org:</span><form action='javascript:void(0)' onSubmit='google()' style='display: inline-block;'><input type='text' id='q' onSubmit='google()'><input type='submit' style='display: none'><a href='javascript:void(0)' onClick="google();" class='button'>Искать</a></form></div>
 
 <p>Проект объединяет разработчиков, применяющих Оберон, Оберон-2, Активный Оберон, Модула-2, Модула-3, Оберон-07 или Компонентный Паскаль (Блэкбокс Оберон) в своих проектах.</p> 
 
@@ -148,13 +174,13 @@
 <div class='item'>
 <h3>Образовательный портал о визите Н. Вирта в Россию</h3>
 <a href=http://oberon2005.oberoncore.ru>oberon2005.oberoncore.ru</a>
-<p></p>
+<p>Сайт созан после визита Никлауса Вирта в Россию в 2005 году. Ядро сайта — работы по истории и развитию языков программрования его авторства.</p>
 </div>
 
 <div class='item'>
-<h3>Повторение проекта Оберон в 2013 году для FPGA</h3>
+<h3>Project Оberon 2013</h3>
 <a href=http://www.projectoberon.com>www.projectoberon.com</a>
-<p></p>
+<p>Повторение Никлаусом Виртом, Юргом Гуткнехтом и Паулем Ридом проекта Оберон для FPGA</p>
 </div>
 
 
@@ -163,7 +189,7 @@
 <div class='item'>
 <h3>Образовательный проект «Информатика-21»</h3>
 <a href=http://www.inr.ac.ru/~info21>www.inr.ac.ru/~info21</a>
-<p></p>
+<p>Под руководством Фёдора Ткачёва проект координирует усилия специалистов науки, образования, аэрокосмической промышленности и IT-индустрии по упорядочению преподавания программирования и информатики на основе достижений Науки.</p>
 </div>
 
 <div class='item'>
