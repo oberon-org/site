@@ -1,0 +1,1023 @@
+<!DOCTYPE HTML>
+#ru <html lang='ru'>
+#ua <html lang='ua'>
+#en <html lang='en'>
+#de <html lang='de'>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="yandex-verification" content="4ffd52ea41176b8e" />
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Caption&display=swap" rel="stylesheet"> 
+	<title>
+#ru Оберон, каталог ресурсов
+#ua Оберон, каталог ресурсів
+#en Oberon, resources catalog
+#de Oberon, Ressourcenkatalog
+	</title>
+	<style>
+	body {
+		background: #FFFFFF; margin: 3%; font-family: 'PT Sans Caption', sans-serif; color: #330000
+	}
+	.item {
+		margin-top: 40px; margin-left: 20px;
+	}
+	h1 {
+		font-size: 16pt;
+	}
+	h2 {
+		padding-top: 20px;
+		margin-top: 20px;
+	}
+	h3 {
+		margin-bottom: 2px;
+	}
+	.item a {
+		color: #5555EE; text-decoration: none;
+	}
+	.item a:hover {
+		color: #1111FF; text-decoration: underline;
+	}
+	div.menu a {
+		color: #333333; text-decoration: none; display: inline-block;
+		padding: 4px;
+		padding-left: 10px;
+		padding-right: 10px;
+		margin: 0px;
+		margin-top: 3px;
+		background: #FFFFFF;
+		border: 1px solid #999999;
+		border-radius: 4px;
+	}
+	div.menu a:hover {
+		color: #1111FF; border: 1px solid #555555;  text-decoration: none; 
+	}
+
+	/* search */
+	.button {
+		color: #333333; text-decoration: none;
+		padding: 5px;
+		padding-left: 10px;
+		padding-right: 10px;
+		margin: 0px;
+		height: 20px;
+		background: #FFFFFF;
+		border: 1px solid #999999;
+		border-radius: 4px;
+		border-top-left-radius: 0px;
+		border-bottom-left-radius: 0px;
+	}
+	.button:hover {
+		color: #1111FF; border: 1px solid #555555;  text-decoration: none; 
+	}
+
+	input {
+		border: 1px solid #999999;
+		border-right: 0px;
+		border-radius: 4px;
+		height: 20px;
+		padding: 6px;
+		font-size: 12pt;
+		border-top-right-radius: 0px;
+		border-bottom-right-radius: 0px;
+		vertical-align: top;
+	}
+
+	a {
+		color: #111199; text-decoration: none;
+	}
+	a:hover {
+		color: #1111FF; text-decoration: underline;
+	}
+	.menu a {
+		display: inline-block; margin-right: 5px;
+	}
+	p {
+		margin-top: 4px;
+		color: #444444;
+	}
+	</style>
+
+	<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script>
+	function base64_decode(data) {
+		var b64 = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=";
+		var o1, o2, o3, h1, h2, h3, h4, bits, i=0, enc='';
+		do {
+			h1 = b64.indexOf(data.charAt(i++));
+			h2 = b64.indexOf(data.charAt(i++));
+			h3 = b64.indexOf(data.charAt(i++));
+			h4 = b64.indexOf(data.charAt(i++));
+			bits = h1<<18 | h2<<12 | h3<<6 | h4;
+			o1 = bits>>16 & 0xff;
+			o2 = bits>>8 & 0xff;
+			o3 = bits & 0xff;
+			if (h3 == 64) enc += String.fromCharCode(o1);
+			else if (h4 == 64) enc += String.fromCharCode(o1, o2);
+			else enc += String.fromCharCode(o1, o2, o3);
+		} while (i < data.length);
+		return enc;
+	}
+
+	function google () {
+		var query = document.getElementById("q").value;
+		if (query != "") {
+			window.location.href = "https://www.google.com/search?q="+query+"+site%3Aoberon.org";
+		}
+	}
+
+	</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+<div style="max-width: 870px; margin: auto;">
+
+<div style="clear: both; width: 90%; display: table;"><div style="display: table-cell; width: 21%;"><img src='oberon.png' alt='OBERON.ORG' style="width: 100%;"></div><div style="display: table-cell; width: 2%;">&nbsp;</div><div style="width: 77%; display: table-cell;"><img style="width: 100%; padding-bottom: 17px; " src='title.png'></div></div>
+
+#ru <h1>Каталог интернет-ресурсов, связанных с языком программирования Оберон</h1>
+#ua <h1>Каталог інтернет-ресурсів, пов'язаних з мовою програмування Оберон</h1>
+#en <h1>Catalog of resources related with Oberon programming language</h1>
+#de <h1>Verzeichnis der Internetquellen zur Programmiersprache Oberon </h1>
+
+<p>
+#ru Проект OBERON.ORG объединяет проекты, связанные с языками программирования Оберон, Оберон-2, Активный Оберон, Модула-2/3, Оберон-07 и Компонентный Паскаль (Блэкбокс Оберон).
+#ua Проект OBERON.ORG об'єднує проекти, пов'язані з мовами програмування Оберон, Оберон-2, Активний Оберон, Модула-2/3, Оберон-07 і Компонентний Паскаль (блекбокс Оберон).
+#en OBERON.ORG project unites projects related to programming languages Oberon, Oberon-2, Active Oberon, Modula-2/3, Oberon-07 and Component Pascal (Blackbox Oberon).
+#de Das OBERON.ORG-Projekt vereint Projekte in Bezug auf die Programmiersprachen Oberon, Oberon-2, Active Oberon, Modula-2/3, Oberon-07 und Component Pascal (Blackbox Oberon).
+
+#ru 
+#ua 
+#en 
+#de 
+</p>
+
+<div class='menu'>
+#ru <a href="/ru#history">История
+#ua <a href="/ua#history">Історія
+#en <a href="/en#history">History
+#de <a href="/de#history">Geschichte
+</a>
+#ru <a href="/ru#education">Обучение
+#ua <a href="/ua#education">Навчання
+#en <a href="/en#education">Education
+#de <a href="/de#education">Ausbildung
+</a>
+#ru <a href="/ru#tools">Инструменты
+#ua <a href="/ua#tools">Інструменти
+#en <a href="/en#tools">Tools
+#de <a href="/de#tools">Werkzeuge
+</a>
+#ru <a href="/ru#communities">Сообщества
+#ua <a href="/ua#communities">Співтовариства
+#en <a href="/en#communities">Community
+#de <a href="/de#communities">Gemeinschaften
+</a>
+#ru <a href="/ru#boards">Форумы
+#ua <a href="/ua#boards">Форуми
+#en <a href="/en#boards">Boards
+#de <a href="/de#boards">Foren
+</a>
+#ru <a href="/ru#video">Видео
+#ua <a href="/ua#video">Відео
+#en <a href="/en#video">Video
+#de <a href="/de#video">Video
+</a>
+#ru <a href="/ru#repos">Репозитории
+#ua <a href="/ua#repos">Репозиторії
+#en <a href="/en#repos">Repositories
+#de <a href="/de#repos">Repositories
+</a></div>
+
+<form action='javascript:void(0)' onSubmit='google()' style='display: table; width: 100%; margin-top: 10px; margin-bottom: 15px; color: #444444;'><nobr><input type='text' id='q' onSubmit='google()' style='display: table-cell;'><input type='submit' style='display: none'><a href='javascript:void(0)' onClick="google();" class='button' style='display: table-cell;'>
+#ru Искать в
+#ua Шукати в
+#en Search in
+#de Suchen in
+ oberon.org</a></nobr>
+<div style='display: table-cell;'>
+<a href=/ru><img src=/ru.png style='border: 0px; height: 32px; display: inline; margin-bottom: -9px;' alt='ru'></a> 
+<a href=/ua><img src=/ua.png style='border: 0px; height: 32px; display: inline; margin-bottom: -9px;' alt='ua'></a> 
+<a href=/en><img src=/en.png style='border: 0px; height: 32px; display: inline; margin-bottom: -9px;' alt='en'></a> 
+<a href=/de><img src=/de.png style='border: 0px; height: 32px; display: inline; margin-bottom: -9px;' alt='de'></a> 
+</div></form>
+
+<div style='clear: both;'><h2 id='history'>
+#ru Исторические материалы
+#ua історичні матеріали
+#en Historical materials
+#de Historisches Material
+</h2></div>
+
+<div class='item'>
+<h3>
+#ru Сайт Никлауса Вирта
+#ua Сайт Ніклауса Вірта
+#en Niklaus Wirth website
+#de Niklaus Wirth Website
+</h3>
+<a href=https://inf.ethz.ch/personal/wirth>inf.ethz.ch/personal/wirth</a>
+<p>
+#ru Никлаус Вирт — автор языка программирования Оберон. Совместно с Юргом Гуткнехтом он разработал операционную систему Оберон, дав начало технологическому направлению Оберон-языков и инструментов.
+#ua Ніклаус Вірт - автор мови програмування Оберон. Спільно з Юргом Гуткнехтом він розробив операційну систему Оберон, давши початок технологічного напрямку Оберон-мов і інструментів.
+#en Niklaus Wirth is the author of the Oberon programming language. Together with Jürg Gutknecht, he developed the Oberon operating system, giving rise to the technological direction of Oberon languages and tools.
+#de Niklaus Wirth ist der Autor der Programmiersprache Oberon. Zusammen mit Jürg Gutknecht entwickelte er das Betriebssystem Oberon, aus dem die technologische Ausrichtung der Oberon-Sprachen und -Tools hervorging.
+</p>
+</div>
+
+<div class='item'>
+<h3>
+#ru Одна из первых страниц про Оберон на русском
+#ua Одна з перших сторінок про Оберон російською
+#en One of the first pages about Oberon in Russian
+#de Eine der ersten Seiten über Oberon in russischer Sprache
+</h3>
+<a href=http://www.uni-vologda.ac.ru/oberon>www.uni-vologda.ac.ru/oberon</a>
+<p>
+#ru Сергей Залманович Свердлов про основные черты Оберона и его применение для образования.
+#ua Сергій Залманович Свердлов про основні риси Оберона і його застосування для освіти.
+#en Sergey Zalmanovich Sverdlov about the main features of Oberon and its application for education.
+#de Sergey Zalmanovich Sverdlov über die Hauptmerkmale von Oberon und seine Anwendung für die Bildung.
+</p>
+</div>
+
+<div class='item'>
+<h3>
+#ru Образовательный портал о визите Н. Вирта в Россию
+#ua Освітній портал про візит Н. Вірта в Росію
+#en Educational portal about N. Virt's visit to Russia
+#de Bildungsportal über den Besuch von N. Virt in Russland
+</h3>
+<a href=http://oberon2005.oberoncore.ru>oberon2005.oberoncore.ru</a>
+<p>
+#ru Сайт созан после визита Никлауса Вирта в Россию в 2005 году. Ядро сайта — работы по истории и развитию языков программрования его авторства. 
+#ua Сайт Соза після візиту Ніклауса Вірта в Росію в 2005 році. Ядро сайту - роботи з історії та розвитку мов программрованія його авторства.
+#en The site was created after Niklaus Wirth's visit to Russia in 2005. The core of the site is work on the history and development of programming languages of its authorship.
+#de Die Seite wurde nach dem Besuch von Niklaus Wirth in Russland im Jahr 2005 erstellt. Der Kern der Website ist die Arbeit an der Geschichte und Entwicklung der Programmiersprachen ihrer Urheberschaft.
+</p>
+</div>
+
+<div class='item'>
+<h3>
+#ru Проект Оберон 2013
+#ua Project Оberon 2013
+#en Project Оberon 2013
+#de Projekt Oberon 2013
+</h3>
+<a href=http://www.projectoberon.com>www.projectoberon.com</a>
+<p>
+#ru Повторение Никлаусом Виртом, Юргом Гуткнехтом и Паулем Ридом проекта Оберон для FPGA
+#ua Повторення Ніклаус Віртом, Юргом Гуткнехтом і Паулем Рідом проекту Оберон для FPGA
+#en Repeating by Niklaus Wirth, Jürg Gutknecht and Paul Reed of the Oberon project for FPGA
+#de Wiederholung durch Niklaus Wirth, Jürg Gutknecht und Paul Reed vom Oberon-Projekt für FPGA
+</p>
+</div>
+
+<div class='item'>
+<h3>
+#ru День Оберона в России
+#ua День Оберона в Росії
+#en Oberon Day in Russia
+#de Oberon Tag in Russland
+</h3>
+<a href='https://oberoncore.ru/oberonday'>oberoncore.ru/oberonday</a>
+<p>
+#ru Мероприятие собирает разработчиков, использующих в своей практике системы Оберон-семейства, и заинтересованных слушателей. Ежегодно с докладами выступают специалисты, представляющие фундаментальную науку (физика высоких энергий, биофизика), стратегические отрасли («Росатом»), отрасль систем управления (АСУТП, беспилотные летательные аппараты), малый инновационный бизнес (разработка программных систем различного назначения). Также в центре внимания — проблемы ИТ-образования, начиная с 5 классов и до профильного высшего, и ключ к их решению, выработанный проектом «Информатика-21». Миссия семинара, кроме обмена опытом между участниками, — трансляция ИТ-просвещения в отрасль и в сферу образования.
+#ua Захід збирає розробників, які використовують у своїй практиці системи Оберон-сімейства, і зацікавлених слухачів. Щорічно з доповідями виступають фахівці, що представляють фундаментальну науку (фізика високих енергій, біофізика), стратегічні галузі ( «Росатом»), галузь систем управління (АСУТП, безпілотні літальні апарати), малий інноваційний бізнес (розробка програмних систем різного призначення). Також в центрі уваги - проблеми ІТ-освіти, починаючи з 5 класів і до профільного вищого, і ключ до їх вирішення, вироблений проектом «Інформатика-21». Місія семінару, крім обміну досвідом між учасниками, - трансляція ІТ-освіти в галузь і в сферу освіти.
+#en The event brings together developers who use Oberon-family systems in their practice, and interested listeners. Every year, experts representing fundamental science (high energy physics, biophysics), strategic industries (Rosatom), the industry of control systems (APCS, unmanned aerial vehicles), small innovative business (development of software systems for various purposes) make reports. Also in the center of attention are the problems of IT education, from grade 5 to specialized higher, and the key to their solution, developed by the Informatics-21 project. The mission of the seminar, besides the exchange of experience between the participants, is the broadcast of IT education in the industry and in the field of education.
+#de Die Veranstaltung bringt Entwickler, die Systeme der Oberon-Familie in ihrer Praxis verwenden, und interessierte Zuhörer zusammen. Jedes Jahr berichten Experten aus den Bereichen Grundlagenforschung (Hochenergiephysik, Biophysik), strategische Industrie (Rosatom), Steuerungssysteme (APCS, unbemannte Luftfahrzeuge) und kleine innovative Unternehmen (Entwicklung von Softwaresystemen für verschiedene Zwecke). Im Mittelpunkt der Aufmerksamkeit stehen auch die Probleme der IT-Ausbildung von der 5. Klasse bis zur Fachhochschule und der Schlüssel zu ihrer Lösung, die vom Informatics-21-Projekt entwickelt wurden. Die Mission des Seminars ist neben dem Erfahrungsaustausch zwischen den Teilnehmern die Ausstrahlung von IT-Bildung in der Industrie und im Bildungsbereich.
+</p>
+</div>
+
+<div style='clear: both;'><h2 id='education'>
+#ru Образовательные материалы
+#ua Освітні матеріали
+#en Educational materials
+#de Lehrmaterial
+</h2></div>
+
+<div class='item'>
+<h3>
+#ru Образовательный проект «Информатика-21»
+#ua Освітній проект «Інформатика-21»
+#en Educational project "Informatics-21"
+#de Bildungsprojekt "Informatik-21"
+</h3>
+<a href=http://www.inr.ac.ru/~info21>www.inr.ac.ru/~info21</a>
+<p>
+#ru Под руководством Фёдора Ткачёва проект координирует усилия специалистов науки, образования, аэрокосмической промышленности и IT-индустрии по упорядочению преподавания программирования и информатики на основе достижений Науки.
+#ua Під керівництвом Федора Ткачова проект координує зусилля фахівців науки, освіти, аерокосмічної промисловості та IT-індустрії з упорядкування викладання програмування та інформатики на основі досягнень Науки.
+#en Under the leadership of Fyodor Tkachev, the project coordinates the efforts of specialists in science, education, the aerospace industry and the IT industry to streamline the teaching of programming and computer science based on the achievements of Science.
+#de Unter der Leitung von Fjodor Tkatschow koordiniert das Projekt die Bemühungen von Spezialisten aus Wissenschaft, Bildung, Luft- und Raumfahrtindustrie und IT-Industrie, den Unterricht in Programmierung und Informatik auf der Grundlage der Errungenschaften der Wissenschaft zu rationalisieren.
+</p>
+</div>
+
+<div class='item'>
+<h3>
+#ru Компонентный Паскаль в школьном курсе информатики
+#ua Компонентний Паскаль в шкільному курсі інформатики
+#en Component Pascal in School Computer Science Course
+#de Komponente Pascal im Schulinformatikkurs
+</h3>
+<a href='https://inf.1sept.ru/article.php?ID=200800100'>inf.1sept.ru/article.php?ID=200800100</a>
+<p>
+#ru Статья А.С. Ильина и А.И. Попокова в журнале «Первое сентября». «Преподавание программирования на основе Компонентного Паскаля/Блэкбокса в порядке эксперимента началось в России в 2002 году. Накопленный к сегодняшнему дню самый положительный опыт, как личный, так и коллег, позволяет рекомендовать эту среду к массовому использованию в школе и вузе».
+#ua Стаття А.С. Ільїна і А.І. Попокова в журналі «Первое сентября». «Викладання програмування на основі компонентного Паскаля / блекбокс в порядку експерименту почалося в Росії в 2002 році. Накопичений до сьогоднішнього дня самий позитивний досвід, як особистий, так і колег, дозволяє рекомендувати цю середу до масового використання в школі та вузі ».
+#en Article by A.S. Ilyina and A.I. Popokov in the magazine "September First". “Teaching programming based on Component Pascal / Blackbox started experimentally in Russia in 2002. The most positive experience accumulated to date, both personal and colleagues, allows us to recommend this environment for mass use in schools and universities."
+#de Artikel von A.S. Ilyina und A.I. Popokov in der Zeitschrift "September First". „Der Programmierunterricht auf der Basis von Component Pascal / Blackbox begann 2002 in Russland experimentell. Die bisher positivsten persönlichen und kollegialen Erfahrungen ermöglichen es uns, dieses Umfeld für den Masseneinsatz in Schulen und Universitäten zu empfehlen."
+</p>
+</div>
+
+<div class='item'>
+<h3>
+#ru Открытая википедия по языкам и проектам на языке Оберон
+#ua Відкрита вікіпедія по мовам і проектам на мові Оберон
+#en Open wikipedia on languages and projects in the Oberon language
+#de Öffnen Sie Wikipedia zu Sprachen und Projekten in der Oberon-Sprache
+</h3>
+<a href=http://wiki.oberon.org>wiki.oberon.org</a>
+<p>
+#ru 
+#ua 
+#en 
+#de 
+</p>
+</div>
+
+<div class='item'>
+<h3>
+#ru Сайт про операционную систему Native Oberon
+#ua Сайт про операційну систему Native Oberon
+#en Website about the operating system Native Oberon
+#de Website über das Betriebssystem Native Oberon
+</h3>
+<a href=http://www.nativeoberon.org>www.nativeoberon.org</a>
+<p>
+#ru 
+#ua 
+#en 
+#de 
+</p>
+</div>
+
+<div class='item'>
+<h3>
+#ru Описание компилятора OP2
+#ua Опис компілятора OP2
+#en Description of the OP2 compiler
+#de Beschreibung des OP2-Compilers
+</h3>
+<a href=http://e-collection.library.ethz.ch/eserv/eth:39386/eth-39386-02.pdf>e-collection.library.ethz.ch/../eth-39386-02.pdf</a>
+<p>
+#ru 
+#ua 
+#en 
+#de 
+</p>
+</div>
+
+<div class='item'>
+<h3>
+#ru Сайт посвящён семейству языков программирования Oberon
+#ua Сайт присвячений сімейству мов програмування Oberon
+#en The site is dedicated to the Oberon family of programming languages
+#de Die Seite ist der Oberon-Familie von Programmiersprachen gewidmet
+</h3>
+<a href=https://way.oberon.org>way.oberon.org</a>
+<p>
+#ru 
+#ua 
+#en 
+#de 
+</p>
+</div>
+
+
+
+<div style='clear: both;'><h2 id='tools'>
+#ru Инструменты для разработки
+#ua Інструменти для розробки
+#en Development tools
+#de Entwicklungswerkzeuge
+</h2></div>
+
+<div class='item'>
+<h3>
+#ru BlackBox Component Builder для Windows
+#ua BlackBox Component Builder для Windows
+#en BlackBox Component Builder for Windows
+#de BlackBox Component Builder für Windows
+</h3>
+<a href=http://blackboxframework.org>blackboxframework.org</a>
+<p>
+#ru Блэкбокс — это бесплатная и открытая среда программирования для языка Компонентный Паскаль, разработанная швейцарской компанией Oberon Microsystems.  Среда поддерживает динамическую загрузку модулей (откомпилированных в машинный код) и сборку мусора, т.е. предоставляет собственную компонентную объектную модель. Написание, компиляция, выполнение, тестирование могут выполняться внутри интегрированной среды, что значительно увеличивает производительность труда программиста. Блэкбокс представляет собой операционную среду (своего рода микро-ОС), работающую поверх обычной ОС. Эта операционная среда может полностью или частично включаться в конечное приложение (вместе с компилятором), позволяя этому приложению легко расширяться и перестраиваться «на лету».
+#ua Блекбокс - це безкоштовна і відкрита середовище програмування для мови Компонентний Паскаль, розроблена швейцарською компанією Oberon Microsystems. Середовище підтримує динамічне завантаження модулів (відкомпільованих в машинний код) і збірку сміття, тобто надає власну компонентну об'єктну модель. Написання, компіляція, виконання, тестування можуть виконуватися всередині інтегрованої середовища, що значно збільшує продуктивність праці програміста. Блекбокс є операційне середовище (свого роду мікро-ОС), що працює поверх звичайної ОС. Ця операційне середовище може повністю або частково включатися в кінцеве додаток (разом з компілятором), дозволяючи цим додатком легко розширюватися і перебудовуватися «на льоту».
+#en Blackbox is a free and open source programming environment for the Component Pascal language, developed by the Swiss company Oberon Microsystems. The environment supports dynamic loading of modules (compiled into machine code) and garbage collection, i.e. provides its own component object model. Writing, compiling, executing, testing can be done inside an integrated environment, which greatly increases the productivity of the programmer. Blackbox is an operating environment (a kind of micro-OS) that runs on top of a regular OS. This operating environment can be included in whole or in part in the final application (along with the compiler), allowing this application to be easily extended and rebuilt on the fly.
+#de Blackbox ist eine kostenlose Open-Source-Programmierumgebung für die Component Pascal-Sprache, die von der Schweizer Firma Oberon Microsystems entwickelt wurde. Die Umgebung unterstützt das dynamische Laden von Modulen (in Maschinencode kompiliert) und die Speicherbereinigung, d. H. stellt ein eigenes Komponentenobjektmodell bereit. Das Schreiben, Kompilieren, Ausführen und Testen kann in einer integrierten Umgebung erfolgen, was die Produktivität des Programmierers erheblich erhöht. Blackbox ist eine Betriebsumgebung (eine Art Mikro-Betriebssystem), die auf einem normalen Betriebssystem ausgeführt wird. Diese Betriebsumgebung kann ganz oder teilweise in die endgültige Anwendung (zusammen mit dem Compiler) aufgenommen werden, sodass diese Anwendung im laufenden Betrieb problemlos erweitert und neu erstellt werden kann.
+</p>
+</div>
+
+<div class='item'>
+<h3>
+#ru Кросс-платформенный Блэкбокс
+#ua Крос-платформний блекбокс
+#en Cross Platform Blackbox
+#de Plattformübergreifende Blackbox
+</h3>
+<a href=https://blackbox.oberon.org/download>blackbox.oberon.org/download</a>
+<p>
+#ru На сайте опубликована кросс-платформенная версия Блэкбокса для Windows, GNU/Linux, OpenBSD и FreeBSD. Также развивается система открытой публикации расширений.
+#ua На сайті опублікована крос-платформна версія блекбокс для Windows, GNU / Linux, OpenBSD і FreeBSD. Також розвивається система відкритої публікації розширень.
+#en A cross-platform version of Blackbox for Windows, GNU / Linux, OpenBSD and FreeBSD is published on the site. A system of open publishing of extensions is also being developed.
+#de Auf der Website wird eine plattformübergreifende Version von Blackbox für Windows, GNU / Linux, OpenBSD und FreeBSD veröffentlicht. Ein System zur offenen Veröffentlichung von Erweiterungen wird ebenfalls entwickelt.
+</p>
+</div>
+
+<div class='item'>
+<h3>
+#ru Компилятор O7 для микроконтроллеров с архитектурой ARMv{6,7E}-M
+#ua Компілятор O7 для мікроконтролерів з архітектурою ARMv{6,7E}-M
+#en O7 compiler for microcontrollers with ARMv{6,7E}-M architecture
+#de O7-Compiler für Mikrocontroller mit ARMv{6,7E}-M-Architektur
+</h3>
+<a href=https://github.com/aixp/O7>github.com/aixp/O7</a>
+<p>
+#ru Компилятор распространяется в открытых исходных кодах вместе с набором полезных модулей, которые объединены в подсистему Micro. В этих модулях хранятся адреса регистров, процедуры инициализации контроллеров, заготовки для передачи данных по протоколу UART и многое другое. В подсистеме Mobx находятся примеры программ для нескольких микроконтроллеров.
+#ua Компілятор поширюється у відкритих вихідних кодах разом з набором корисних модулів, які об'єднані в підсистему Micro. У цих модулях зберігаються адреси регістрів, процедури ініціалізації контролерів, заготовки для передачі даних по протоколу UART і багато іншого. У підсистемі Mobx знаходяться приклади програм для декількох мікроконтролерів.
+#en The compiler is distributed in open source, along with a set of useful modules, which are combined into a Micro subsystem. These modules store register addresses, controller initialization procedures, templates for transferring data via the UART protocol, and much more. The Mobx subsystem contains sample programs for several microcontrollers.
+#de Der Compiler wird in Open Source zusammen mit einer Reihe nützlicher Module verteilt, die zu einem Micro-Subsystem kombiniert werden. Diese Module speichern Registeradressen, Controller-Initialisierungsverfahren, Vorlagen zum Übertragen von Daten über das UART-Protokoll und vieles mehr. Das Mobx-Subsystem enthält Beispielprogramme für mehrere Mikrocontroller.
+</p>
+</div>
+
+<div class='item'>
+<h3>
+#ru Сборки операционной системы A2
+#ua Збірки операційної системи A2
+#en Operating system assemblies A2
+#de Betriebssystembaugruppen A2
+</h3>
+<!-- <a href=http://cas.inf.ethz.ch/projects/a2>cas.inf.ethz.ch/projects/a2</a> -->
+<a href=https://github.com/yarrom/a2_builds>https://github.com/yarrom/a2_builds</a>
+<p>
+#ru Бинарные сборки и инсталляторы операционной системы A2 под различные поддерживаемые платформы
+#ua Бінарні збірки і інсталятори операційної системи A2 під різні підтримувані платформи
+#en Binary assemblies and installers of the A2 operating system for various supported platforms
+#de Binäre Assemblys und Installationsprogramme des A2-Betriebssystems für verschiedene unterstützte Plattformen
+</p>
+</div>
+
+<div class='item'>
+<h3>
+#ru МультиОберон
+#ua МультіОберон
+#en MultiOberon
+#de MultiOberon
+</h3>
+<a href=https://github.com/dvdagaev/Mob>github.com/dvdagaev/Mob</a>
+<p>
+#ru Компилятор Оберона с поддержкой системы органичений синтаксиса. Поддерживает три бэкэнда: BlackBox x86, Ofront для трансляции в Си, а также LLVM. Может быть использован из Блэкбокса или из командной строки.
+#ua Компілятор Оберона з підтримкою системи органичений синтаксису. Підтримує три бекенда: BlackBox x86, Ofront для трансляції в Сі, а також LLVM. Може бути використаний з блекбокс або з командного рядка.
+#en Oberon compiler with syntax constraint support. Supports three backends: BlackBox x86, Ofront for C translation, and LLVM. Can be used from Blackbox or command line.
+#de Oberon-Compiler mit Unterstützung für Syntaxbeschränkungen. Unterstützt drei Backends: BlackBox x86, Ofront für C-Übersetzung und LLVM. Kann über die Blackbox oder die Befehlszeile verwendet werden.
+</p>
+</div>
+
+<div class='item'>
+<h3>OberonJS</h3>
+<a href=https://github.com/vladfolts/oberonjs>github.com/vladfolts/oberonjs</a>
+<p>
+#ru Транслятор Оберона-07 в JavaScript и экспериментальный язык Eberon
+#ua Транслятор Оберона-07 в JavaScript і експериментальна мова Eberon
+#en Oberon-07 JavaScript Translator and Eberon Experimental Language
+#de Oberon-07 JavaScript Translator und Eberon Experimental Language
+</p>
+</div>
+
+<div class='item'>
+<h3>
+#ru Ви́жуал или Онлайн Оберон
+#ua Ви́жуал или Онлайн Оберон
+#en "Visual" or Online Oberon
+#de "Visual" or Online Oberon
+</h3>
+<a href=https://online.oberon.org>online.oberon.org</a>
+<p>
+#ru Ви́жуал — инструмент для создания интерактивных образовательных и научных моделей с открытым исходным кодом на языке Оберон-07. Проект направлен на распространение знаний и обучение программированию.
+#ua Віжуал - інструмент для створення інтерактивних освітніх і наукових моделей з відкритим вихідним кодом на мові Оберон-07. Проект спрямований на поширення знань та навчання програмуванню.
+#en Visual is a tool for creating interactive educational and scientific models. The project aims to disseminate knowledge and teach programming.
+#de Visual ist ein Werkzeug zur Erstellung interaktiver pädagogischer und wissenschaftlicher Modelle. Das Projekt zielt darauf ab, Wissen zu verbreiten und Programmieren zu lehren.
+</p>
+</div>
+
+<div class='item'>
+<h3>Free Oberon</h3>
+<a href=https://freeoberon.su>freeoberon.su</a>
+<p>
+#ru Интегрированная среда разработки для Windows и Linux.
+#ua Інтегроване середовище розробки для Windows і Linux.
+#en Integrated development environment for Windows and Linux.
+#de Integrierte Entwicklungsumgebung für Windows und Linux.
+</p>
+</div>
+
+<div class='item'>
+<h3>Ofront</h3>
+<a href=https://github.com/jtempl/ofront>github.com/jtempl/ofront</a>
+<p>
+#ru Транслятор Оберона в Си.
+#ua Транслятор Оберона в Сі.
+#en Oberon's translator to C.
+#de Oberons Übersetzer zu C.
+</p>
+</div>
+
+<div class='item'>
+<h3>Ofront+</h3>
+<a href=https://zx.oberon.org/ofrontplus>zx.oberon.org/ofrontplus</a>
+<p>
+#ru Транслятор Оберона в Си с поддержкой различных диалектов Оберона
+#ua Транслятор Оберона в Сі з підтримкою різних діалектів Оберона
+#en Oberon to C translator with support for various Oberon dialects
+#de Übersetzer von Oberon nach C mit Unterstützung für verschiedene Oberon-Dialekte
+</p>
+</div>
+
+<div class='item'>
+<h3>
+#ru Восток
+#ua Схід
+#en Osten
+#de East
+</h3>
+<a href=https://vostok.oberon.org>vostok.oberon.org</a>
+<p>
+#ru Транслятор Оберона-07 в C, Java, Javascript и Оберон
+#ua Транслятор Оберона-07 в C, Java, Javascript і Оберон
+#en Oberon-07 translator to C, Java, Javascript and Oberon
+#de Oberon-07 Übersetzer nach C, Java, Javascript und Oberon
+</p>
+</div>
+
+<div class='item'>
+<h3>
+#ru Компилятор Oberon-07M
+#ua Компілятор Oberon-07M
+#en Compiler Oberon-07M
+#de Compiler Oberon-07M
+</h3>
+<a href=http://exaprog.com>exaprog.com</a>
+<p>
+#ru 
+#ua 
+#en 
+#de 
+</p>
+</div>
+
+<div class='item'>
+<h3>Astrobe</h3>
+<a href=http://astrobe.com>astrobe.com</a>
+<p>
+#ru Компилятор Оберона-07 для микроконтроллеров
+#ua Компілятор Оберона-07 для мікроконтролерів
+#en Oberon-07 compiler for microcontrollers
+#de Oberon-07 Compiler für Mikrocontroller
+</p>
+</div>
+
+<div class='item'>
+<h3>vishap oberon compiler</h3>
+<a href=https://github.com/vishaps/voc>github.com/vishaps/voc</a>
+<p>
+#ru 
+#ua 
+#en 
+#de 
+</p>
+</div>
+
+<div class='item'>
+<h3>Oxford Oberon-2 Compiler</h3>
+<a href=http://spivey.oriel.ox.ac.uk/corner/Oxford_Oberon-2_compiler>spivey.oriel.ox.ac.uk/corner/Oxford_Oberon-2_compiler</a>
+<p>
+#ru 
+#ua 
+#en 
+#de 
+</p>
+</div>
+
+<div class='item'>
+<h3>
+#ru Гершель
+#ua Гершель
+#en Herschel
+#de Herschel
+</h3>
+<a href=https://herschel.oberon.org>herschel.oberon.org</a>
+<p>
+#ru Прямой компилятор Компонентного Паскаля для архитектуры x86-64 и среды Блэкбокс.
+#ua Прямий компілятор компонентний Паскаля для архітектури x86-64 і середовища блекбокс.
+#en Direct Component Pascal compiler for x86-64 architecture and Blackbox framework.
+#de Direct Component Pascal-Compiler für x86-64-Architektur und Blackbox-Umgebung.
+</p>
+</div>
+
+
+<div class='item'>
+<h3>
+#ru ЯОС, Ч115, jaos — русский перевод операционной системы A2 (в разработке)
+#ua ЯОС, Ч115, jaos - російський переклад операційної системи A2 (в розробці)
+#en YaOS, Ch115, jaos - Russian translation of the A2 operating system (in development)
+#de YaOS, Ch115, jaos - Russische Übersetzung des Betriebssystems A2 (in Entwicklung)
+</h3>
+<a href='http://вики-ч115.программирование-по-русски.рф/%D0%A7115/%D0%9E%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B5'>вики-ч115.программирование-по-русски.рф/...</a>
+<p>
+#ru 
+#ua 
+#en 
+#de 
+</p>
+</div>
+
+<div class='item'>
+<h3>oberonc</h3>
+<a href=https://github.com/lboasso/oberonc>github.com/lboasso/oberonc</a>
+<p>
+#ru Компилятор Оберона-07 в байт-код JVM.
+#ua Компілятор Оберона-07 в байт-код JVM.
+#en Oberon-07 compiler to JVM bytecode.
+#de Oberon-07-Compiler zum JVM-Bytecode.
+</p>
+</div>
+
+<div class='item'>
+<h3>
+#ru Многоцелевой компилятор Оберона-07 от Антона Кротова
+#ua Багатоцільовий компілятор Оберона-07 від Антона Кротова
+#en Oberon-07 multipurpose compiler from Anton Krotov
+#de Oberon-07 Mehrzweck-Compiler von Anton Krotov
+</h3>
+<a href=https://github.com/AntKrotov/oberon-07-compiler>github.com/AntKrotov/oberon-07-compiler</a>
+<p>
+#ru 
+#ua 
+#en 
+#de 
+</p>
+</div>
+
+<div class='item'>
+<h3>Patchouli Compiler</h3>
+<a href=https://github.com/congdm/Patchouli-Compiler/tree/v0.8>github.com/congdm/Patchouli-Compiler</a>
+<p>
+#ru Компилятор Оберона-07 в AMD64
+#ua Компілятор Оберона-07 в AMD64
+#en Oberon-07 compiler in AMD64
+#de Oberon-07-Compiler in AMD64
+</p>
+</div>
+
+<div class='item'>
+<h3>XDS</h3>
+<a href=https://github.com/excelsior-oss/xds>github.com/excelsior-oss/xds</a><br/>
+<a href=https://github.com/excelsior-oss/xds-2.60>github.com/excelsior-oss/xds-2.60</a>
+<p>
+#ru Система программирования на языках Modula-2 и Oberon-2
+#ua Система програмування на мовах Modula-2 і Oberon-2
+#en Programming system in Modula-2 and Oberon-2 languages
+#de Programmiersystem in den Sprachen Modula-2 und Oberon-2
+</p>
+</div>
+
+
+<div style='clear: both;'><h2 id='communities'>
+#ru Сообщества
+#ua Співтовариства
+#en Communities
+#de Gemeinschaften
+</h2></div>
+
+<div class='item'>
+<h3>
+#ru Проект OberonCore 
+#ua Проект OberonCore
+#en OberonCore Project
+#de OberonCore-Projekt
+</h3>
+<a href=https://oberoncore.ru>oberoncore.ru</a>
+<p>
+#ru Проект объединяет пользователей и разработчиков оберон-систем и -языков.
+#ua Проект об'єднує користувачів і розробників Оберон-систем і -мови.
+#en The project brings together users and developers of oberon systems and languages.
+#de Das Projekt bringt Benutzer und Entwickler von oberon-Systemen und -Sprachen zusammen.
+</p>
+</div>
+
+<div class='item'>
+<h3>
+#ru Центр развития компонентного каркаса Блэкбокс
+#ua Центр розвитку компонентного каркаса блекбокс
+#en BlackBox Framework Center
+#de BlackBox Framework Center
+</h3>
+<a href=http://blackboxframework.org>blackboxframework.org</a>
+<p>
+#ru Международная волонтерская организация «Центр развития компонентного каркаса Блэкбокс» была создана после официального сообщения Oberon microsystems inc. о публикации Блэкбокса под лицензией BSD 2-clause и прекращении официальной поддержки среды Блэкбокс. Центр взял на себя исправление известных и вновь обнаружаемых недочётов, добавление нововведений, выпуск и публикацию новых версий Блэкбокса для OS Windows.
+#ua Міжнародна волонтерська організація «Центр розвитку компонентного каркаса блекбокс» була створена після офіційного повідомлення Oberon microsystems inc. про публікацію блекбокс під ліцензією BSD 2-clause і припинення офіційної підтримки середовища блекбокс. Центр взяв на себе виправлення відомих і знову виявляти недоліків, додавання нововведень, випуск та публікацію нових версій блекбокс для OS Windows.
+#en The international volunteer organization "Blackbox Component Frame Development Center" was created after the official announcement of Oberon microsystems inc. about publishing Blackbox under BSD 2-clause license and ending official support for Blackbox environment. The center took over the correction of known and newly discovered defects, the addition of innovations, the release and publication of new versions of Blackbox for OS Windows.
+#de Die internationale Freiwilligenorganisation "Blackbox Component Frame Development Center" wurde nach der offiziellen Ankündigung von Oberon microsystems inc. Gegründet. über die Veröffentlichung von Blackbox unter BSD 2-Klausel-Lizenz und die Einstellung der offiziellen Unterstützung für die Blackbox-Umgebung. Das Zentrum übernahm die Korrektur bekannter und neu entdeckter Mängel, die Hinzufügung von Innovationen, die Veröffentlichung und Veröffentlichung neuer Versionen von Blackbox für OS Windows.
+</p>
+</div>
+
+<div class='item'>
+<h3>
+#ru Оберон-клуб VEDAsoft 
+#ua Оберон-клуб VEDAsoft
+#en Oberon-club VEDAsoft
+#de Oberon-club VEDAsoft
+</h3>
+<a href=https://zx.oberon.org>zx.oberon.org</a>
+<p>
+#ru 
+#ua 
+#en 
+#de 
+</p>
+</div>
+
+<div class='item'>
+<h3>Oberon Community Platform</h3>
+<a href=http://www.ocp.inf.ethz.ch/wiki/>www.ocp.inf.ethz.ch</a>
+<p>
+#ru 
+#ua 
+#en 
+#de 
+</p>
+</div>
+
+
+<div style='clear: both;'><h2 id='boards'>
+#ru Форумы
+#ua Форуми
+#en Forums
+#de Foren
+</h2></div>
+
+<div class='item'>
+<h3>
+#ru Форум Оберон-разработчиков
+#ua Форум Оберон-розробників
+#en Oberon-Developers Forum in the CIS
+#de Oberon-Entwicklerforum in der GUS
+</h3>
+<a href=https://forum.oberoncore.ru>forum.oberoncore.ru</a>
+<p>
+#ru 
+#ua 
+#en 
+#de 
+</p>
+</div>
+
+<div class='item'>
+<h3>
+#ru Международный форум для разработчиков на Блэкбоксе
+#ua Міжнародний форум для розробників на Блекбоксe
+#en International Forum for Developers at BlackBox
+#de Internationales Forum für Entwickler bei BlackBox
+</h3>
+<a href=https://community.blackboxframework.org>community.blackboxframework.org</a>
+<p>
+#ru 
+#ua 
+#en 
+#de 
+</p>
+</div>
+
+<div class='item'>
+<h3>
+#ru Форум Оберон-клуба VEDAsoft 
+#ua Форум Оберон-клубу VEDAsoft
+#en VEDAsoft Oberon Club Forum
+#de VEDAsoft Oberon Club Forum
+</h3>
+<a href=https://zx.oberon.org/forum>zx.oberon.org/forum</a>
+<p>
+#ru 
+#ua 
+#en 
+#de 
+</p>
+</div>
+
+<div class='item'>
+<h3>
+#ru Чат с тематическими каналами 
+#ua Чат з тематичними каналами
+#en Chat with thematic channels
+#de Chatten Sie mit thematischen Kanälen
+</h3>
+<a href=https://chat.oberon.org>chat.oberon.org</a>
+<p>
+#ru Тематическое общение на программной платформе RocketChat.
+#ua Тематичне спілкування на програмній платформі RocketChat.
+#en Thematic communication on the RocketChat software platform.
+#de Thematische Kommunikation auf der RocketChat-Softwareplattform.
+</p>
+</div>
+
+<div class='item'>
+<h3>
+#ru Новостной канал в Telegram 
+#ua Новинний канал в Telegram (російською)
+#en Telegram news channel (in Russian)
+#de Telegramm-Nachrichtensender (auf Russisch)
+</h3>
+<a href=https://t.me/BlackBoxOberon>t.me/BlackBoxOberon</a>
+<p>
+#ru 
+#ua 
+#en 
+#de 
+</p>
+</div>
+
+<!--
+<div class='item'>
+<h3>
+#ru Форум Oberon space 
+#ua 
+#en 
+#de 
+</h3>
+<a href=http://oberspace.org>oberspace.org</a>
+<p>
+#ru 
+#ua 
+#en 
+#de 
+</p>
+</div>
+-->
+
+<div style='clear: both;'><h2 id='video'>
+#ru Видео про Оберон
+#ua Відео про Оберон
+#en Video about Oberon
+#de Video über Oberon
+</h2></div>
+
+<div class='item'>
+<h3>Choosing a programming language to learn</h3>
+<a href='https://www.youtube.com/watch?v=Lx3JabQQsIQ'>www.youtube.com/watch?v=Lx3JabQQsIQ</a>
+<p>
+#ru 
+#ua 
+#en 
+#de 
+</p>
+</div>
+
+<div class='item'>
+<h3>Oberon and its purity</h3>
+<a href='https://cds.cern.ch/record/745708?ln=en'>cds.cern.ch/record/745708?ln=en</a>
+<p>
+#ru Jürg Gutknecht's presentation at the Oberon Day @ CERN (10-March-2004)
+#ua Jürg Gutknecht's presentation at the Oberon Day @ CERN (10-March-2004)
+#en Jürg Gutknecht's presentation at the Oberon Day @ CERN (10-March-2004)
+#de Jürg Gutknecht's presentation at the Oberon Day @ CERN (10-March-2004)
+</p>
+</div>
+
+<div class='item'>
+<h3>
+#ru Плейлист видео про Native Oberon от Andres Ramos
+#ua Плейлист відео про Native Oberon від Andres Ramos
+#en Native Oberon video playlist by Andres Ramos
+#de Native Oberon Video-Playlist von Andres Ramos
+</h3>
+<a href='https://www.youtube.com/playlist?list=PLwJoKCHKYULQp8WLE2kPBhw3_6KDv8pTZ'>www.youtube.com/...</a>
+<p>
+#ru 
+#ua 
+#en 
+#de 
+</p>
+</div>
+
+<div class='item'>
+<h3>
+#ru Оберон День
+#ua Оберон День
+#en Oberon Day
+#de Oberon Tag
+</h3>
+<a href='https://www.youtube.com/watch?v=HeaeQTcQZZQ&list=PLoKr-_Vv5yq7KbxkSITmtanYElP73xsxU'>2014</a><br/>
+<a href='https://www.youtube.com/watch?v=psyASrecA4s&list=PLoKr-_Vv5yq4HkT6bVWtvs6lArek8KEGV'>2015</a><br/>
+<a href='https://www.youtube.com/watch?v=z_Htkz74xtg&list=PLoKr-_Vv5yq5fzRpZJX4okmJbidma3tZS'>2016</a><br/>
+<a href='https://www.youtube.com/watch?v=fGjcKWLG7ac&list=PLoKr-_Vv5yq7Hdxq1edBtyxvkTehP4t09'>2017</a><br/>
+<a href='https://www.youtube.com/watch?v=xg1ZyxtXmtw&list=PLoKr-_Vv5yq4f8b2WLztojmvV2PQjMGoc'>2018</a><br/>
+<a href='https://www.youtube.com/watch?v=zjkrumM5_vc&list=PLoKr-_Vv5yq7DmJlG59LHlzO1KoYnh75E'>2019</a><br/>
+<a href='https://www.youtube.com/watch?v=O-x7iXopDyA&list=PLoKr-_Vv5yq4iDYvwLD3Hdp9hF3beYiGD'>2020</a>
+<p>
+#ru 
+#ua 
+#en 
+#de 
+</p>
+</div>
+
+
+
+<div style='clear: both;'><h2 id='repos'>Репозитории
+#ru 
+#ua 
+#en 
+#de 
+</h2></div>
+
+<div class='item'>
+<h3>
+#ru Коллекция расширений для Блэкбокса 
+#ua Колекція розширень для блекбокс
+#en Component Pascal Collection
+#de Komponenten-Pascal-Sammlung
+</h3>
+<a href=http://www.zinnamturm.eu>www.zinnamturm.eu</a>
+<p>
+#ru Коллекция различных подсистем для Блэкбокса, которая  содержит примеры исходного кода, инструменты, утилиты, математические и графические библиотеки и множество других приложений. Есть также полезные простые примеры для учебных пособий. Здесь вы найдете алгоритмы и решения для стандартных задач компьютерного программирования.
+#ua Колекція різних підсистем для блекбокс, яка містить приклади вихідного коду, інструменти, утиліти, математичні і графічні бібліотеки і багато інших програм. Є також корисні прості приклади для навчальних посібників. Тут ви знайдете алгоритми і рішення для стандартних завдань комп'ютерного програмування.
+#en A collection of different subsystems for Blackbox that contains source code examples, tools, utilities, math and graphics libraries, and many other applications. There are also helpful simple examples for tutorials. Here you will find algorithms and solutions for common computer programming problems.
+#de Eine Sammlung verschiedener Subsysteme für Blackbox, die Quellcodebeispiele, Tools, Dienstprogramme, Mathematik- und Grafikbibliotheken und viele andere Anwendungen enthält. Es gibt auch hilfreiche einfache Beispiele für Tutorials. Hier finden Sie Algorithmen und Lösungen für häufig auftretende Probleme bei der Computerprogrammierung.
+</p>
+</div>
+
+<div class='item'>
+<h3>
+#ru Открытый репозиторий для публикации расширений Блэкбокса 
+#ua Відкритий репозиторій для публікації розширений Блэкбокса
+#en Open repository for publishing Blackbox extensions
+#de Öffnen Sie das Repository zum Veröffentlichen von Blackbox-Erweiterungen
+</h3>
+<a href=https://blackbox.oberon.org>blackbox.oberon.org</a>
+<p>
+#ru 
+#ua 
+#en 
+#de 
+</p>
+</div>
+
+<div class='item'>
+<h3>OberonCore</h3>
+<a href='https://oberoncore.ru/bbcc/subs/start'>https://oberoncore.ru/bbcc/subs/start</a>
+<p>
+#ru 
+#ua 
+#en 
+#de 
+</p>
+</div>
+
+
+<p style='margin-top: 100px;'>
+#ru конец каталога
+#ua кінець каталогу
+#en end of catalog
+#de Ende des Verzeichnisses
+</p>
+
+#ru По вопросам обновления и дополнения информации в каталоге, а также, если вам необходим домен третьего уровня для проекта, — <a href='mailto:iadenisov АТ oberon.org' onmouseover="this.href = 'mailto:Иван Денисов '+base64_decode('PGlhZGVuaXNvdkBvYmVyb24ub3JnPj9zdWJqZWN0PQ==')+'По поводу oberon.org'">напишите письмо</a>.
+#ua З питань оновлення та доповнення інформації в каталозі, а також, якщо вам необхідний домен третього рівня для проекту, — <a href='mailto:iadenisov АТ oberon.org' onmouseover="this.href = 'mailto:Иван Денисов '+base64_decode('PGlhZGVuaXNvdkBvYmVyb24ub3JnPj9zdWJqZWN0PQ==')+'По поводу oberon.org'">напишіть лист</a>.
+#en For information on updating and supplementing the information in the directory, as well as if you need a third-level domain for the project, — <a href='mailto:iadenisov АТ oberon.org' onmouseover="this.href = 'mailto:Иван Денисов '+base64_decode('PGlhZGVuaXNvdkBvYmVyb24ub3JnPj9zdWJqZWN0PQ==')+'About oberon.org'">write a letter</a>.
+#de Informationen zum Aktualisieren und Ergänzen der Informationen im Verzeichnis sowie wenn Sie eine Domäne der dritten Ebene für das Projekt benötigen, — <a href='mailto:iadenisov АТ oberon.org' onmouseover="this.href = 'mailto:Иван Денисов '+base64_decode('PGlhZGVuaXNvdkBvYmVyb24ub3JnPj9zdWJqZWN0PQ==')+'About oberon.org'">einen Brief schreiben</a>.
+
+<div style='margin-top: 600px; color: #AAAAAA'>
+#ru Сайт работает на http сервере, разработанном в Блэкбоксе.
+#ua Сайт працює на http сервері, розробленому в блекбокс.
+#en The site runs on an http server developed by Blackbox.
+#de Die Site läuft auf einem von Blackbox entwickelten http-Server.
+</div>
+
+</div>
+</body>
+</html>
