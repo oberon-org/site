@@ -870,10 +870,10 @@
 </h3>
 <a href=https://lists.inf.ethz.ch/mailman/listinfo/oberon>lists.inf.ethz.ch/mailman/listinfo/oberon</a>
 <p>
-#ru 
-#ua 
-#en 
-#de 
+#ru
+#ua
+#en
+#de
 </p>
 </div>
 
@@ -965,11 +965,11 @@
 
 
 
-<div style='clear: both;'><h2 id='repos'>Репозитории
-#ru
-#ua
-#en
-#de
+<div style='clear: both;'><h2 id='repos'>
+#ru Репозитории
+#ua Репозиторії
+#en Repositories
+#de Repositories
 </h2></div>
 
 <div class='item'>
