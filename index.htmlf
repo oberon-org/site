@@ -975,7 +975,7 @@ window.location.href = "https://www.google.com/search?q="+query+"+site%3Aoberon.
 <div class='item'>
 <h3>
 #ru Коллекция расширений для Блэкбокса
-#ua Колекція розширень для блекбокс
+#ua Колекція розширень для Блекбокс
 #en Component Pascal Collection
 #de Komponenten-Pascal-Sammlung
 </h3>
@@ -991,7 +991,7 @@ window.location.href = "https://www.google.com/search?q="+query+"+site%3Aoberon.
 <div class='item'>
 <h3>
 #ru Открытый репозиторий для публикации расширений Блэкбокса
-#ua Відкритий репозиторій для публікації розширень Блэкбокса
+#ua Відкритий репозиторій для публікації розширень Блекбокса
 #en Open repository for publishing Blackbox extensions
 #de Hier finden Sie ein Repository zum Veröffentlichen von Blackbox-Erweiterungen
 </h3>
