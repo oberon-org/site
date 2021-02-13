@@ -149,6 +149,13 @@ window.location.href = "https://www.google.com/search?q="+query+"+site%3Aoberon.
 
 <div style="max-width: 870px; margin: auto;">
 
+<div style='display: inline-block; text-align: right; margin-right: 70px; float: right; margin-bottom: -12px;'>
+<a href=/ru><img src=/ru.png style='border: 0px; height: 32px; width: 43px; display: inline;' alt='ru'></a>
+<a href=/uk><img src=/uk.png style='border: 0px; height: 32px; width: 43px; display: inline;' alt='uk'></a>
+<a href=/en><img src=/en.png style='border: 0px; height: 32px; width: 43px; display: inline;' alt='en'></a>
+<a href=/de><img src=/de.png style='border: 0px; height: 32px; width: 43px; display: inline;' alt='de'></a>
+</div>
+
 <div style="clear: both; width: 90%; display: table;"><div style="display: table-cell; width: 21%;"><img src='oberon.png' alt='OBERON.ORG' style="width: 100%;"></div><div style="display: table-cell; width: 2%;">&nbsp;</div><div style="width: 77%; display: table-cell;"><img style="width: 100%; padding-bottom: 17px; " src='title.png'></div></div>
 
 #ru <h1>Каталог интернет-ресурсов, связанных с языком программирования Оберон</h1>
@@ -205,17 +212,12 @@ window.location.href = "https://www.google.com/search?q="+query+"+site%3Aoberon.
 #de <a href="/de#repos">Repositories
 </a></div>
 
-<form action='javascript:void(0)' onSubmit='google()' style='display: table; width: 100%; margin-top: 10px; margin-bottom: 15px; color: #444444;'><nobr><input type='text' id='q' onSubmit='google()' style='display: table-cell;'><input type='submit' style='display: none'><a href='javascript:void(0)' onClick="google();" class='button' style='display: table-cell;'>
+<form action='javascript:void(0)' onSubmit='google()' style='width: 100%; margin-top: 10px; margin-bottom: 15px; color: #444444;'><div style='display: inline-block;'><input type='text' id='q' onSubmit='google()' style='display: inline-block;  height: 24px; width: 200px; padding-left: 10px;'><input type='submit' style='display: none'><a onClick="google();" class='button' style='display: inline-block; height: 26px; cursor: pointer;'><nobr>
 #ru Искать в
 #uk Шукати в
 #en Search in
 #de Suchen in
- oberon.org</a></nobr>
-<div style='display: table-cell;'>
-<a href=/ru><img src=/ru.png style='border: 0px; height: 32px; display: inline; margin-bottom: -9px;' alt='ru'></a>
-<a href=/uk><img src=/uk.png style='border: 0px; height: 32px; display: inline; margin-bottom: -9px;' alt='uk'></a>
-<a href=/en><img src=/en.png style='border: 0px; height: 32px; display: inline; margin-bottom: -9px;' alt='en'></a>
-<a href=/de><img src=/de.png style='border: 0px; height: 32px; display: inline; margin-bottom: -9px;' alt='de'></a>
+ oberon.org</nobr></a>
 </div></form>
 
 <div style='clear: both;'><h2 id='history'>
@@ -647,7 +649,7 @@ window.location.href = "https://www.google.com/search?q="+query+"+site%3Aoberon.
 #en YaOS, Ch115, jaos - Russian translation of the A2 operating system (in development)
 #de YaOS, Ch115, jaos - Russische Übersetzung des Betriebssystems A2 (in Entwicklung)
 </h3>
-<a href='http://вики-ч115.программирование-по-русски.рф/%D0%A7115/%D0%9E%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B5'>вики-ч115.программирование-по-русски.рф/...</a>
+<a href='https://gitlab.com/budden/ja-o-s'>https://gitlab.com/budden/ja-o-s</a>
 <p>
 #ru
 #ua
