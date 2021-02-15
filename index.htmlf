@@ -651,10 +651,10 @@ window.location.href = "https://www.google.com/search?q="+query+"+site%3Aoberon.
 </h3>
 <a href='https://gitlab.com/budden/ja-o-s'>https://gitlab.com/budden/ja-o-s</a>
 <p>
-#ru
-#ua
-#en
-#de
+#ru Проект ЯОС — это копия (форк) операционной системы A2, написанной на языке "ETH Oberon". Начат в 2019 году и успел продвинуться по следующим направлениям: перевод исходных текстов на русский язык, расширение поддержки юникода, расширение документации, улучшение инструментов разработчика, изменение языка с целью повышения надёжности.
+#ua Проект ЯОС - це копія (форк) операційної системи A2, написаної на мові "ETH Oberon". Розпочато в 2019 році і встиг просунутися по наступних напрямках: переклад вихідних текстів на російську мову, розширення підтримки юникода, розширення документації, поліпшення інструментів розробника, зміна мови з метою підвищення надійності.
+#en The JaOS project is a copy (fork) of the A2 operating system, written in the "ETH Oberon" language. The project started in 2019 and managed to make progress in the following areas: translation of source texts into Russian, expanding Unicode support, expanding documentation, improving developer tools, changing the language to improve reliability.
+#de Das JaOS-Projekt ist eine Kopie (Gabel) des Betriebssystems A2, geschrieben in der Sprache "ETH Oberon". Begonnen im Jahr 2019 und in den folgenden Bereichen Fortschritte erzielt: Übersetzung von Quelltexten ins Russische, Erweiterung der Unicode-Unterstützung, Erweiterung der Dokumentation, Verbesserung der Entwicklertools, Änderung der Sprache zur Verbesserung der Zuverlässigkeit.
 </p>
 </div>
 
