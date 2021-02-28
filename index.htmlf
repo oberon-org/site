@@ -469,12 +469,27 @@ window.location.href = "https://www.google.com/search?q="+query+"+site%3Aoberon.
 
 <div class='item'>
 <h3>
+#ru Active Object System (AOS aka A2)
+#uk Active Object System (AOS aka A2)
+#en Active Object System (AOS aka A2)
+#de Active Object System (AOS aka A2)
+</h3>
+<a href=http://cas.inf.ethz.ch/projects/a2>cas.inf.ethz.ch/projects/a2</a>
+<p>
+#ru 
+#uk 
+#en 
+#de 
+</p>
+</div>
+
+<div class='item'>
+<h3>
 #ru Сборки операционной системы A2
 #uk Збірки операційної системи A2
 #en Operating system assemblies A2
 #de Betriebssystembaugruppen A2
 </h3>
-<!-- <a href=http://cas.inf.ethz.ch/projects/a2>cas.inf.ethz.ch/projects/a2</a> -->
 <a href=https://github.com/yarrom/a2_builds>https://github.com/yarrom/a2_builds</a>
 <p>
 #ru Бинарные сборки и инсталляторы операционной системы A2 под различные поддерживаемые платформы
@@ -529,7 +544,7 @@ window.location.href = "https://www.google.com/search?q="+query+"+site%3Aoberon.
 
 <div class='item'>
 <h3>Free Oberon</h3>
-<a href=https://freeoberon.su>freeoberon.su</a>
+<a href=https://free.oberon.org>free.oberon.org</a>
 <p>
 #ru Интегрированная среда разработки для Windows и GNU/Linux в стиле Turbo Pascal.
 #uk Інтегроване середовище розробки для Windows і GNU/Linux у стилі Turbo Pascal.
@@ -644,10 +659,10 @@ window.location.href = "https://www.google.com/search?q="+query+"+site%3Aoberon.
 
 <div class='item'>
 <h3>
-#ru ЯОС, Ч115, jaos — русский перевод операционной системы A2 (в разработке)
-#uk ЯОС, Ч115, jaos - російський переклад операційної системи A2 (в розробці)
-#en YaOS, Ch115, jaos - Russian translation of the A2 operating system (in development)
-#de YaOS, Ch115, jaos - Russische Übersetzung des Betriebssystems A2 (in Entwicklung)
+#ru ЯОС — русский перевод операционной системы A2 (в разработке)
+#uk ЯОС — російський переклад операційної системи A2 (в розробці)
+#en YaOS — Russian translation of the A2 operating system (in development)
+#de YaOS — Russische Übersetzung des Betriebssystems A2 (in Entwicklung)
 </h3>
 <a href='https://gitlab.com/budden/ja-o-s'>https://gitlab.com/budden/ja-o-s</a>
 <p>
