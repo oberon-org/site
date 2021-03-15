@@ -533,7 +533,8 @@ window.location.href = "https://www.google.com/search?q="+query+"+site%3Aoberon.
 #en "Visual" or Online Oberon
 #de "Visual" or Online Oberon
 </h3>
-<a href=https://online.oberon.org>online.oberon.org</a>
+<a href=https://online.oberon.org>online.oberon.org</a><br/>
+<a href=https://visual.sfu-kras.ru>visual.sfu-kras.ru</a>
 <p>
 #ru Ви́жуал — инструмент для создания интерактивных образовательных и научных моделей с открытым исходным кодом на языке Оберон-07. Проект направлен на распространение знаний и обучение программированию.
 #uk Віжуал - інструмент для створення інтерактивних освітніх і наукових моделей з відкритим вихідним кодом на мові Оберон-07. Проект спрямований на поширення знань та навчання програмуванню.
@@ -771,17 +772,6 @@ window.location.href = "https://www.google.com/search?q="+query+"+site%3Aoberon.
 #de Oberon-club VEDAsoft
 </h3>
 <a href=https://zx.oberon.org>zx.oberon.org</a>
-<p>
-#ru
-#ua
-#en
-#de
-</p>
-</div>
-
-<div class='item'>
-<h3>Oberon Community Platform</h3>
-<a href=http://www.ocp.inf.ethz.ch/wiki/>www.ocp.inf.ethz.ch</a>
 <p>
 #ru
 #ua
