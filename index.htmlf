@@ -724,6 +724,17 @@ window.location.href = "https://www.google.com/search?q="+query+"+site%3Aoberon.
 </p>
 </div>
 
+<div class='item'>
+<h3>Eigen Compiler Suite</h3>
+<a href=https://ecs.openbrace.org/>ecs.openbrace.org</a></a>
+<p>
+#ru Бесплатный и автономный набор инструментов для разработки программного обеспечения с интерфейсом Оберон-2 
+#uk Безкоштовний і самостійний інструментарій для розробки програмного забезпечення з інтерфейсом Oberon-2
+#en Free and self-contained software development toolchain with Oberon-2 front-end
+#de Kostenlose und in sich geschlossene Softwareentwicklungs-Toolchain mit Oberon-2-Frontend 
+</p>
+</div>
+
 
 <div style='clear: both;'><h2 id='communities'>
 #ru Сообщества
