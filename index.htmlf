@@ -728,10 +728,10 @@ window.location.href = "https://www.google.com/search?q="+query+"+site%3Aoberon.
 <h3>Eigen Compiler Suite</h3>
 <a href=https://ecs.openbrace.org/>ecs.openbrace.org</a></a>
 <p>
-#ru Бесплатный и автономный набор инструментов для разработки программного обеспечения с интерфейсом Оберон-2 
-#uk Безкоштовний і самостійний інструментарій для розробки програмного забезпечення з інтерфейсом Oberon-2
-#en Free and self-contained software development toolchain with Oberon-2 front-end
-#de Kostenlose und in sich geschlossene Softwareentwicklungs-Toolchain mit Oberon-2-Frontend 
+#ru Бесплатный и автономный набор инструментов для разработки программного обеспечения с интерфейсом Оберон-2. Компилятор изначально работает в Windows, OS X, а также в системах на базе Linux и ориентирован на несколько аппаратных архитектур и сред выполнения. Включенная библиотека все еще находится в зачаточном состоянии, и есть только несколько привязок к внешним интерфейсам, но реализация самого языка довольно зрелая и поэтому подходит для программирования встроенных систем.
+#uk Безкоштовний і самостійний інструментарій для розробки програмного забезпечення з інтерфейсом Oberon-2. Компілятор працює на основі Windows, OS X, а також систем на базі Linux і націлений на декілька апаратних архітектур та середовищ виконання. Включена бібліотека все ще перебуває в зародковому стані, і є лише кілька прив’язок до зовнішніх інтерфейсів, але реалізація самої мови досить зріла і, отже, придатна для програмування вбудованих систем.
+#en Free and self-contained software development toolchain with Oberon-2 front-end. The compiler runs natively on Windows, OS X, as well as Linux-based systems and targets several hardware architectures and runtime environments. The included library is still in its infancy and there are only few bindings to external interfaces, but the implementation of the language itself is rather mature and thus suitable for programming embedded systems.
+#de Kostenlose und in sich geschlossene Softwareentwicklungs-Toolchain mit Oberon-2-Frontend. Der Compiler läuft nativ unter Windows, OS X sowie Linux-basierten Systemen und zielt auf verschiedene Hardwarearchitekturen und Laufzeitumgebungen ab. Die enthaltene Bibliothek steckt noch in den Kinderschuhen und es gibt nur wenige Bindungen an externe Schnittstellen, aber die Implementierung der Sprache selbst ist ziemlich ausgereift und daher für die Programmierung eingebetteter Systeme geeignet.
 </p>
 </div>
 
