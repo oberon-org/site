@@ -410,6 +410,21 @@ window.location.href = "https://www.google.com/search?q="+query+"+site%3Aoberon.
 </p>
 </div>
 
+<div class='item'>
+<h3>
+#ru Сайт, посвящённый Оберон-07
+#uk Сайт, присвячений Оберон-07
+#en A resource for the Oberon-07 language
+#de Eine Ressource für die Programmiersprache Oberon-07
+</h3>
+<a href=http://oberon07.com/>oberon07.com</a>
+<p>
+#ru
+#ua
+#en
+#de
+</p>
+</div>
 
 
 <div style='clear: both;'><h2 id='tools'>
@@ -734,6 +749,7 @@ window.location.href = "https://www.google.com/search?q="+query+"+site%3Aoberon.
 #de Freie und in sich geschlossene Softwareentwicklungs-Toolchain mit Oberon-2-Frontend. Der Compiler läuft nativ unter Windows, OS X sowie Linux-basierten Systemen und zielt auf verschiedene Hardwarearchitekturen und Laufzeitumgebungen ab. Die enthaltene Bibliothek steckt noch in den Kinderschuhen und es gibt nur wenige Bindungen an externe Schnittstellen, aber die Implementierung der Sprache selbst ist ziemlich ausgereift und daher für die Programmierung eingebetteter Systeme geeignet.
 </p>
 </div>
+
 
 
 <div style='clear: both;'><h2 id='communities'>
