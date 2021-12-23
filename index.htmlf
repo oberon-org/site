@@ -369,7 +369,7 @@ window.location.href = "https://www.google.com/search?q="+query+"+site%3Aoberon.
 #en Website about the operating system Native Oberon
 #de Webseite über das Betriebssystem Native Oberon
 </h3>
-<a href=http://www.nativeoberon.org>www.nativeoberon.org</a>
+<a href=http://native.oberon.org>native.oberon.org</a>
 <p>
 #ru
 #ua
@@ -479,6 +479,22 @@ window.location.href = "https://www.google.com/search?q="+query+"+site%3Aoberon.
 #uk Компілятор поширюється у відкритих вихідних кодах разом з набором корисних модулів, які об'єднані в підсистему Micro. У цих модулях зберігаються адреси регістрів, процедури ініціалізації контролерів, заготовки для передачі даних по протоколу UART і багато іншого. У підсистемі Mobx знаходяться приклади програм для декількох мікроконтролерів.
 #en The compiler is distributed in open source, along with a set of useful modules, which are combined into a Micro subsystem. These modules store register addresses, controller initialization procedures, templates for transferring data via the UART protocol, and much more. The Mobx subsystem contains sample programs for several microcontrollers.
 #de Der Compiler wird in Open Source zusammen mit einer Reihe nützlicher Module verteilt, die zu einem Micro-Subsystem kombiniert werden. Diese Module speichern Registeradressen, Controller-Initialisierungsverfahren, Vorlagen zum Übertragen von Daten über das UART-Protokoll und vieles mehr. Das Mobx-Subsystem enthält Beispielprogramme für verschiedene Mikrocontroller.
+</p>
+</div>
+
+<div class='item'>
+<h3>
+#ru Рекорди́но
+#uk Рекорди́но
+#en Recordino
+#de Recordino
+</h3>
+<a href=https://recordino.ldnova.com>recordino.ldnova.com</a>
+<p>
+#ru Среда разработки для O7.
+#uk Среда разработки для O7..
+#en IDE for O7.
+#de IDE fur O7.
 </p>
 </div>
 
@@ -749,7 +765,6 @@ window.location.href = "https://www.google.com/search?q="+query+"+site%3Aoberon.
 #de Freie und in sich geschlossene Softwareentwicklungs-Toolchain mit Oberon-2-Frontend. Der Compiler läuft nativ unter Windows, OS X sowie Linux-basierten Systemen und zielt auf verschiedene Hardwarearchitekturen und Laufzeitumgebungen ab. Die enthaltene Bibliothek steckt noch in den Kinderschuhen und es gibt nur wenige Bindungen an externe Schnittstellen, aber die Implementierung der Sprache selbst ist ziemlich ausgereift und daher für die Programmierung eingebetteter Systeme geeignet.
 </p>
 </div>
-
 
 
 <div style='clear: both;'><h2 id='communities'>
@@ -1072,4 +1087,3 @@ window.location.href = "https://www.google.com/search?q="+query+"+site%3Aoberon.
 </div>
 </body>
 </html>
-
