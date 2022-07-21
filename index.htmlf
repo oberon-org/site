@@ -321,12 +321,12 @@ window.location.href = "https://www.google.com/search?q="+query+"+site%3Aoberon.
 #en Educational project "Informatics-21"
 #de Bildungsprojekt "Informatik-21"
 </h3>
-<a href=http://www.inr.ac.ru/~info21>www.inr.ac.ru/~info21</a>
+<a href=https://informatika-21.ru>informatika-21.ru</a>
 <p>
-#ru Под руководством Фёдора Ткачёва проект координирует усилия специалистов науки, образования, аэрокосмической промышленности и IT-индустрии по упорядочению преподавания программирования и информатики на основе достижений науки.
-#uk Під керівництвом Федора Ткачова проект координує зусилля фахівців науки, освіти, аерокосмічної промисловості та IT-індустрії з упорядкування викладання програмування та інформатики на основі досягнень науки.
-#en Under the leadership of Fyodor Tkachev, the project coordinates the efforts of specialists in science, education, the aerospace industry and the IT industry to streamline the teaching of programming and computer science based on the achievements of Science.
-#de Unter der Leitung von Fjodor Tkatschow koordiniert das Projekt die Bemühungen von Spezialisten aus Wissenschaft, Bildung, Luft- und Raumfahrtindustrie und IT-Industrie, den Unterricht in Programmierung und Informatik auf der Grundlage der Errungenschaften der Wissenschaft zu rationalisieren.
+#ru Усилия специалистов науки, образования, аэрокосмической промышленности и IT-индустрии по упорядочению преподавания программирования и информатики на основе достижений науки.
+#uk Зусилля фахівців науки, освіти, аерокосмічної промисловості та IT-індустрії з упорядкування викладання програмування та інформатики на основі досягнень науки.
+#en The project coordinates the efforts of specialists in science, education, the aerospace industry and the IT industry to streamline the teaching of programming and computer science based on the achievements of Science.
+#de Projekt die Bemühungen von Spezialisten aus Wissenschaft, Bildung, Luft- und Raumfahrtindustrie und IT-Industrie, den Unterricht in Programmierung und Informatik auf der Grundlage der Errungenschaften der Wissenschaft zu rationalisieren.
 </p>
 </div>
 
@@ -468,6 +468,20 @@ window.location.href = "https://www.google.com/search?q="+query+"+site%3Aoberon.
 
 <div class='item'>
 <h3>
+#ru BlackBox Component Builder для операционной системы Haiku.
+#uk BlackBox Component Builder для операционной системы Haiku.
+#en BlackBox Component Builder port to Haiku operating system.
+#de BlackBox Component Builder port to Haiku operating system.
+</h3>
+<a href=https://github.com/X547/BlackBox-Haiku>github.com/X547/BlackBox-Haiku</a>
+<p>
+
+</p>
+</div>
+
+
+<div class='item'>
+<h3>
 #ru Компилятор O7 для микроконтроллеров с архитектурой ARMv{6,7E}-M
 #uk Компілятор O7 для мікроконтролерів з архітектурою ARMv{6,7E}-M
 #en O7 compiler for microcontrollers with ARMv{6,7E}-M architecture
@@ -505,7 +519,9 @@ window.location.href = "https://www.google.com/search?q="+query+"+site%3Aoberon.
 #en Active Object System (AOS aka A2)
 #de Active Object System (AOS aka A2)
 </h3>
-<a href=http://cas.inf.ethz.ch/projects/a2>cas.inf.ethz.ch/projects/a2</a>
+<a href=http://cas.inf.ethz.ch/projects/a2>cas.inf.ethz.ch/projects/a2</a><br>
+Unofficial mirror of the ETH A2 repository:<br>
+<a href=https://github.com/metacore/A2OS>github.com/metacore/A2OS</a>
 <p>
 #ru 
 #uk 
@@ -641,7 +657,7 @@ window.location.href = "https://www.google.com/search?q="+query+"+site%3Aoberon.
 
 <div class='item'>
 <h3>Astrobe</h3>
-<a href=http://astrobe.com>astrobe.com</a>
+<a href=http://astrobe.com>astrobe.com></a>
 <p>
 #ru Компилятор Оберона-07 для микроконтроллеров
 #uk Компілятор Оберона-07 для мікроконтролерів
@@ -649,6 +665,31 @@ window.location.href = "https://www.google.com/search?q="+query+"+site%3Aoberon.
 #de Oberon-07 Compiler für Mikrocontroller
 </p>
 </div>
+
+
+<div class='item'>
+<h3>Gardens Point Component Pascal (GPCP) for .NET</h3>
+<a href=https://github.com/k-john-gough/gpcp/releases>github.com/k-john-gough/gpcp/releases</a>
+<p>
+#ru Компилятор Компонентного Паскаля для .NET
+#uk Компілятор Компонентного Паскаля для .NET
+#en Component Pascal compiler for .NET
+#de Component Pascal-Compiler für .NET
+</p>
+</div>
+
+<div class='item'>
+<h3>Astrobe CPIde</h3>
+<a href=https://www.astrobe.com/CPIde/CPIde.htm>www.astrobe.com/CPIde/CPIde.htm</a>
+<p>
+#ru Интегрированная среда разработки для Компонентного Паскаля для .NET (использует GPCP)
+#uk Інтегроване середовище розробки для Компонентного Паскаля для .NET (использует GPCP)
+#en IDE for Component Pascal compiler for .NET (using GPCP)
+#de Integrierte Entwicklungsumgebung für Component Pascal-Compiler für .NET (GPCP)
+</p>
+</div>
+
+
 
 <div class='item'>
 <h3>vishap oberon compiler</h3>
@@ -671,6 +712,7 @@ window.location.href = "https://www.google.com/search?q="+query+"+site%3Aoberon.
 #de
 </p>
 </div>
+
 
 <div class='item'>
 <h3>
@@ -765,6 +807,19 @@ window.location.href = "https://www.google.com/search?q="+query+"+site%3Aoberon.
 #de Freie und in sich geschlossene Softwareentwicklungs-Toolchain mit Oberon-2-Frontend. Der Compiler läuft nativ unter Windows, OS X sowie Linux-basierten Systemen und zielt auf verschiedene Hardwarearchitekturen und Laufzeitumgebungen ab. Die enthaltene Bibliothek steckt noch in den Kinderschuhen und es gibt nur wenige Bindungen an externe Schnittstellen, aber die Implementierung der Sprache selbst ist ziemlich ausgereift und daher für die Programmierung eingebetteter Systeme geeignet.
 </p>
 </div>
+
+
+<div class='item'>
+<h3>The Oberon+ IDE</h3>
+<a href=https://github.com/rochus-keller/Oberon>github.com/rochus-keller/Oberon</a>
+<p>
+#ru Кроссплатформенный компилятор Oberon для ECMA/ISO CLI, C99 и LuaJIT, а также IDE с отладчиком на уровне исходного кода и семантической навигацией, совместимый с Oberon 90, Oberon-2, Oberon-07 и Oberon+. Поддерживает библиотеки Oakwood (включая XYplane) и кроссплатформенный интерфейс внешних функций (FFI). 
+#ua Кроссплатформенний компілятор Oberon для ECMA/ISO CLI, C99 і LuaJIT, а також IDE з відладчиком на рівні програмного коду і семантичною навігацією, сумісний з Oberon 90, Oberon-2, Oberon-07 і Oberon+. Підтримує бібліотеки Oakwood (включаючи XYplane) і кроссплатформенний інтерфейс зовнішніх функцій (FFI).
+#en Cross-platform Oberon to ECMA/ISO CLI, C99 and LuaJIT compilers and IDE with source-level debugger and semantic navigation, compatible with Oberon 90, Oberon-2, Oberon-07 and Oberon+. Supports Oakwood libraries (including XYplane) and a cross-platform foreign function interface (FFI).
+#de Plattformübergreifendes Oberon zu ECMA/ISO CLI, C99- und LuaJIT-Compiler und IDE mit Debugger auf Quellebene und semantischer Navigation, kompatibel mit Oberon 90, Oberon-2, Oberon-07 und Oberon+. Unterstützt Oakwood-Bibliotheken (einschließlich XYplane) und eine plattformübergreifende Fremdfunktionsschnittstelle (FFI).
+</p>
+</div>
+
 
 
 <div style='clear: both;'><h2 id='communities'>
@@ -1087,3 +1142,4 @@ window.location.href = "https://www.google.com/search?q="+query+"+site%3Aoberon.
 </div>
 </body>
 </html>
+
