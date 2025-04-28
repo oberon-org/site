@@ -149,11 +149,12 @@ window.location.href = "https://www.google.com/search?q="+query+"+site%3Aoberon.
 
 <div style="max-width: 870px; margin: auto;">
 
-<div style='display: inline-block; text-align: right; margin-right: 70px; float: right; margin-bottom: -12px;'>
-<a href=/ru><img src=/ru.png style='border: 0px; height: 32px; width: 43px; display: inline;' alt='ru'></a>
-<a href=/uk><img src=/uk.png style='border: 0px; height: 32px; width: 43px; display: inline;' alt='uk'></a>
-<a href=/en><img src=/en.png style='border: 0px; height: 32px; width: 43px; display: inline;' alt='en'></a>
-<a href=/de><img src=/de.png style='border: 0px; height: 32px; width: 43px; display: inline;' alt='de'></a>
+
+<div style='display: inline-block; text-align: right; margin-right: 50px; margin-bottom: 15px; float: right; font-size: 10pt;'>
+<a href=/de>Deutsch</a> &nbsp;&nbsp;
+<a href=/en>English</a> &nbsp;&nbsp;
+<a href=/ru>Русский</a> &nbsp;&nbsp;
+<a href=/uk>Українська</a>
 </div>
 
 <div style="clear: both; width: 90%; display: table;"><div style="display: table-cell; width: 21%;"><img src='oberon.png' alt='OBERON.ORG' style="width: 100%;"></div><div style="display: table-cell; width: 2%;">&nbsp;</div><div style="width: 77%; display: table-cell;"><img style="width: 100%; padding-bottom: 17px; " src='title.png'></div></div>
@@ -394,21 +395,6 @@ window.location.href = "https://www.google.com/search?q="+query+"+site%3Aoberon.
 </p>
 </div>
 
-<div class='item'>
-<h3>
-#ru Сайт посвящён семейству языков программирования Oberon
-#uk Сайт, присвячений сімейству мов програмування Oberon
-#en The site is dedicated to the Oberon family of programming languages
-#de Diese Seite ist den Programmiersprachen der Oberon-Familie gewidmet
-</h3>
-<a href=https://way.oberon.org>way.oberon.org</a>
-<p>
-#ru
-#ua
-#en
-#de
-</p>
-</div>
 
 <div class='item'>
 <h3>
@@ -505,10 +491,10 @@ window.location.href = "https://www.google.com/search?q="+query+"+site%3Aoberon.
 </h3>
 <a href=https://recordino.ldnova.com>recordino.ldnova.com</a>
 <p>
-#ru Среда разработки для O7.
-#uk Среда разработки для O7..
-#en IDE for O7.
-#de IDE fur O7.
+#ru Среда разработки программ для микроконтроллеров, включает в себя компилятор O7.
+#uk Среда разработки программ для микроконтроллеров, включает в себя компилятор O7.
+#en IDE for making MCU firmware. It is including O7 compiler in distribution.
+#de IDE fur making MCU firmware. It is including O7 compiler in distribution.
 </p>
 </div>
 
@@ -543,6 +529,23 @@ Unofficial mirror of the ETH A2 repository:<br>
 #uk Двійкові збірки й інсталятори операційної системи A2 для різних платформ
 #en Binary assemblies and installers of the A2 operating system for various supported platforms
 #de Binäre Assemblys und Installationsprogramme des A2-Betriebssystems für verschiedene unterstützte Plattformen
+</p>
+</div>
+
+
+<div class='item'>
+<h3>
+#ru Репозиторий rpm пакетов с A2 для Fedora Linux
+#uk Репозиторій rpm пакетів з A2 для Fedora Linux
+#en Repository of rpm packages with A2 for Fedora Linux
+#de Repository von RPM-Paketen mit A2 für Fedora Linux
+</h3>
+<a href=https://brain-algorithms.github.io/web-a2/>brain-algorithms.github.io/web-a2</a>
+<p>
+#ru Репозиторий RPM-пакетов Fedora, содержащий пакеты RPM для A2 Oberon (eth-версия и расширенная версия). Пакеты RPM позволяют быстро установить (и обновить) A2 в Fedora Linux. В Debian вы можете создавать пакеты deb из rpm с помощью "alien -d &lt;rpm package&gt;".
+#uk Репозиторій rpm Fedora, що містить пакети rpm для A2 Oberon (версія eth і розширена версія). Пакети RPM дають змогу швидко встановити (та оновити) A2 на fedora linux. У debian ви можете створювати пакети deb з rpm за допомогою "alien -d &lt;rpm package&gt;"
+#en Fedora rpm repository containing rpm packages for A2 Oberon (eth version and enhanced version). RPM packages make it possible to quickly install (and update) A2 on fedora linux. On debian you can make deb packages from rpm with "alien -d &lt;rpm package&gt;"
+#de Fedora-RPM-Repository mit RPM-Paketen für A2 Oberon (eth-Version und erweiterte Version). RPM-Pakete ermöglichen die schnelle Installation (und Aktualisierung) von A2 unter Fedora Linux. Unter Debian können Sie mit "alien -d &lt;rpm-Paket&gt;" Deb-Pakete aus RPM erstellen.
 </p>
 </div>
 
@@ -657,7 +660,7 @@ Unofficial mirror of the ETH A2 repository:<br>
 
 <div class='item'>
 <h3>Astrobe</h3>
-<a href=http://astrobe.com>astrobe.com></a>
+<a href=http://astrobe.com>astrobe.com</a>
 <p>
 #ru Компилятор Оберона-07 для микроконтроллеров
 #uk Компілятор Оберона-07 для мікроконтролерів
@@ -933,21 +936,6 @@ Unofficial mirror of the ETH A2 repository:<br>
 </p>
 </div>
 
-<div class='item'>
-<h3>
-#ru Чат с тематическими каналами
-#uk Чат з тематичними каналами
-#en Chat with thematic channels
-#de Chatten Sie mit thematischen Kanälen
-</h3>
-<a href=https://chat.oberon.org>chat.oberon.org</a>
-<p>
-#ru Тематическое общение на программной платформе RocketChat.
-#uk Тематичне спілкування на програмній платформі RocketChat.
-#en Thematic communication on the RocketChat software platform.
-#de Thematische Kommunikation auf der RocketChat-Softwareplattform.
-</p>
-</div>
 
 <div class='item'>
 <h3>
@@ -1058,7 +1046,8 @@ Unofficial mirror of the ETH A2 repository:<br>
 <a href='https://www.youtube.com/watch?v=fGjcKWLG7ac&list=PLoKr-_Vv5yq7Hdxq1edBtyxvkTehP4t09'>2017</a><br/>
 <a href='https://www.youtube.com/watch?v=xg1ZyxtXmtw&list=PLoKr-_Vv5yq4f8b2WLztojmvV2PQjMGoc'>2018</a><br/>
 <a href='https://www.youtube.com/watch?v=zjkrumM5_vc&list=PLoKr-_Vv5yq7DmJlG59LHlzO1KoYnh75E'>2019</a><br/>
-<a href='https://www.youtube.com/watch?v=O-x7iXopDyA&list=PLoKr-_Vv5yq4iDYvwLD3Hdp9hF3beYiGD'>2020</a>
+<a href='https://www.youtube.com/watch?v=O-x7iXopDyA&list=PLoKr-_Vv5yq4iDYvwLD3Hdp9hF3beYiGD'>2020</a><br/>
+<a href='https://www.youtube.com/watch?v=7KQzervwfJ4&list=PLoKr-_Vv5yq4ZMzilGDfjNlsjQSckklKV'>2022</a>
 <p>
 #ru
 #ua
