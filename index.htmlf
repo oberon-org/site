@@ -283,7 +283,7 @@ window.location.href = "https://www.google.com/search?q="+query+"+site%3Aoberon.
 #en Project Оberon 2013
 #de Projekt Oberon 2013
 </h3>
-<a href=http://www.projectoberon.com>www.projectoberon.com</a>
+<a href=http://www.projectoberon.net>www.projectoberon.net</a>
 <p>
 #ru Повторение Никлаусом Виртом, Юргом Гуткнехтом и Паулем Ридом проекта Оберон для FPGA
 #uk Повторення Ніклаусом Віртом, Юргом Гуткнехтом і Паулем Рідом проекту Оберон для FPGA
@@ -386,7 +386,9 @@ window.location.href = "https://www.google.com/search?q="+query+"+site%3Aoberon.
 #en Description of the OP2 compiler
 #de Beschreibung des OP2-Compilers
 </h3>
-<a href=http://e-collection.library.ethz.ch/eserv/eth:39386/eth-39386-02.pdf>e-collection.library.ethz.ch/../eth-39386-02.pdf</a>
+<a href=https://www.research-collection.ethz.ch/server/api/core/bitstreams/5502ae4c-8e1d-4549-b106-69a92663cf00/content>Crelier B.J. Separate Compilation and Module Extension. 1994.</a>
+#ru <br>
+#ru <a href=https://oberoncore.ru/_media/library/crelier_separate_compilation_and_module_extension.pdf>копия на сайте OberonCore</a>
 <p>
 #ru
 #ua
